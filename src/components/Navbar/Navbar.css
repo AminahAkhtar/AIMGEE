@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root{
+    --mainColor: #4cbad5;
+    --primaryColor: #fff;
+    --secondaryColor:  #417096;
+}
+
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    background-color: var(--primaryColor);
+	
+}
+
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 2rem;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a:hover{
+    color: var(--secondaryColor);
+    border-bottom: 5px solid var(--secondaryColor);
+    font-weight: bold;
+}
+.active{
+	color: var(--secondaryColor);
+    border-bottom: 5px solid var(--secondaryColor);
+    font-weight: bold;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--secondaryColor);
+	text-decoration: none;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+.hero{
+    background-color: var(--secondaryColor);
+    margin-top: 0;
+    width: 100%;
+    height: 56rem;
+    position: relative;
+}
+/* .filter-blur{
+    background: var(--secondaryColor);
+    backdrop-filter: blur(0px);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+} */
+.slide-title::before{
+    width: 100%;
+    height: 100%;
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 60px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+}
+.text{
+    width: 100%;
+    height: 35rem;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    /* margin-left: 5rem; */
+}
+@media screen and (max-width: 1400px) {
+	nav{
+		width: 80%;
+		margin-left: 6%;
+	}
+}
+@media screen and (max-width: 768px) {
+    nav{
+        margin-top: 1rem;
+		margin-left: 2%;
+		width: 83%;
+    }
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content:left;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(52, 50, 50, 0.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+		width: 88%;
+	}
+    nav .links a:hover{
+        color: var(--mainColor);
+        border-bottom: 5px solid var(--mainColor);
+        font-weight: bold;
+    }
+	nav .links a {
+		font-size: 20px;
+        color: var(--primaryColor);
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+    nav .icon-burger .line{
+        background-color: var(--secondaryColor);
+    }
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+@media screen and (max-width: 650px){
+	nav{
+		width: 82%;
+		/* margin-left: 5%; */
+	}
+}
+@media screen and (max-width: 590px){
+   nav{
+	width: 80%;
+	margin-left: 2%;
+   }
+   
+}
+@media screen and (max-width: 492px){
+  nav{
+	width: 76%;
+	margin-left: 2%;
+  }
+}
+@media screen and (max-width: 400px){
+	nav{
+		width: 78%;
+		margin-left: 1%;
+	}
+}
+@media screen and (max-width: 380px){
+	nav{
+		width: 75%;
+		margin-left: 1%;
+	}
+}
+@media screen and (max-width: 317px){
+	nav{
+		width: 60%;
+		margin-left: 6%;
+	}
+}

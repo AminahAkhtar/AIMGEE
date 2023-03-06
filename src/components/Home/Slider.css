@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root{
+    --mainColor: #4cbad5;
+    --primaryColor: #fff;
+    --secondaryColor: #417096;
+}
+
+.slider-conatiner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 150rem;
+    margin-top: 100px;
+   
+}
+.active{
+    display: inline-block;
+}
+.inactive{
+    display: none;
+}
+.slides{
+height: 80vh;
+width: 100%;
+position: relative;
+animation: fadeIn 1s ;
+
+}
+.slide-image{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    /* object-fit: cover; */
+    margin: 0;
+    opacity: 0.8;
+}
+.slide-title,
+.slide-text{
+    width: 100%;
+    height: 35rem;
+    color: var(--primaryColor);
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    z-index: 10;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+@keyframes fadeIn {
+    0%{
+        transform: translateY(1rem) scale(0);
+        opacity: 0;
+    }
+}
+.prev,
+.next{
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+    color: var(--primaryColor);
+}
+.prev:hover, 
+.next:hover{
+   color: var(--primaryColor);
+   background-color: var(--secondaryColor);
+   transition: all 0.5s ease-in;
+}
+.next{
+    right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+@media screen and (max-width: 768px){
+    .slide-title,.slide-text{
+        font-size: 2rem;
+        top: 40%;
+    }
+}
