@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/aimgee/static/css/main.7d323a56.css",
+    "main.js": "/aimgee/static/js/main.16458e10.js",
+    "static/js/787.2aa2657a.chunk.js": "/aimgee/static/js/787.2aa2657a.chunk.js",
+    "static/media/home3.jpg": "/aimgee/static/media/home3.2554c83caa0120ac24dd.jpg",
+    "static/media/missionbg.jpg": "/aimgee/static/media/missionbg.342e195770c45cb0eda7.jpg",
+    "static/media/home1.jpg": "/aimgee/static/media/home1.044fed3ad1f196aa0f19.jpg",
+    "static/media/about.jpg": "/aimgee/static/media/about.ba15bb44a5bb121233e3.jpg",
+    "static/media/handshakes.png": "/aimgee/static/media/handshakes.8d899d9ec6e1c3046fb4.png",
+    "static/media/nedlogo.png": "/aimgee/static/media/nedlogo.e97da730c42fecc7bbae.png",
+    "static/media/pakistanlogo.png": "/aimgee/static/media/pakistanlogo.63ae1e6533a1cf409877.png",
+    "static/media/americalogo.png": "/aimgee/static/media/americalogo.e1294088b81310f6aed8.png",
+    "static/media/home2.jpg": "/aimgee/static/media/home2.6bd06eac7e9dd767bd4c.jpg",
+    "static/media/aimgeelogo.png": "/aimgee/static/media/aimgeelogo.0774384aecf43488c990.png",
+    "static/media/clean.png": "/aimgee/static/media/clean.835a9bcb548fde794089.png",
+    "static/media/sale.png": "/aimgee/static/media/sale.af69db79cd56c2f1dc0e.png",
+    "static/media/mission.png": "/aimgee/static/media/mission.ec3e0d06afcea84b5bba.png",
+    "static/media/cost.png": "/aimgee/static/media/cost.089acaf2e078720fb94c.png",
+    "static/media/aimgee.png": "/aimgee/static/media/aimgee.a14d17d813ea56720e02.png",
+    "static/media/battery.png": "/aimgee/static/media/battery.f122a5d9005c530b33ab.png",
+    "index.html": "/aimgee/index.html",
+    "main.7d323a56.css.map": "/aimgee/static/css/main.7d323a56.css.map",
+    "main.16458e10.js.map": "/aimgee/static/js/main.16458e10.js.map",
+    "787.2aa2657a.chunk.js.map": "/aimgee/static/js/787.2aa2657a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d323a56.css",
+    "static/js/main.16458e10.js"
+  ]
+}
