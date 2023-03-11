@@ -8,9 +8,12 @@
 }
 
 :root{
-    --mainColor: #4cbad5;
+    /* --mainColor: #4cbad5;
     --primaryColor: #fff;
-    --secondaryColor: #417096;
+    --secondaryColor: #417096; */
+    --mainColor: #87CEEB;
+    --primaryColor: #fff;
+    --secondaryColor: #50C878;
 }
 .motive-container{
     background-color: var(--primaryColor);
@@ -18,7 +21,7 @@
     margin: 0 auto;
     padding: 50px 0;
     transition: all .3s ease;
-    background-image:linear-gradient(var(--mainColor), var(--secondaryColor),var(--mainColor), var(--secondaryColor));
+    background-image:linear-gradient(var(--secondaryColor),var(--mainColor));
 }
 .motive-container h2{
     color: var(--primaryColor);

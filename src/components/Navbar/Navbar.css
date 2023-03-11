@@ -8,9 +8,9 @@
 }
 
 :root{
-    --mainColor: #4cbad5;
+	--mainColor: #87CEEB;
     --primaryColor: #fff;
-    --secondaryColor:  #417096;
+    --secondaryColor: #50C878;
 }
 
 nav {

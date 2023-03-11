@@ -8,9 +8,9 @@
 }
 
 :root{
-    --mainColor: #4cbad5;
+    --mainColor: #50C878 ;
     --primaryColor: #fff;
-    --secondaryColor: #417096;
+    --secondaryColor:  #87CEEB;
 }
 .col-img{
     width: 12rem;

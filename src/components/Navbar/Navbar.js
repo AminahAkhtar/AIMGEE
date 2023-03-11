@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { useRef, useEffect } from 'react'
-import {FaBars, FaTimes} from "react-icons/fa"
+import { useEffect } from 'react'
 import '../../components/Navbar/Navbar.css'
 import LOGO from '../../assets/aimgee.png'
 import Slider from '../Home/Slider'
