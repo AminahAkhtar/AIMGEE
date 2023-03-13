@@ -18,6 +18,9 @@ body {
 img {
     max-width: 100%
 }
+.footer-text{
+    color: #fff;
+}
 
 a:focus,
 input:focus,
@@ -230,6 +233,7 @@ p {
     text-align: center;
    
 }
+
 .collaboration{
     background-color: #f4f6f7;
     margin-top: -3rem;
@@ -1850,16 +1854,39 @@ p {
     padding-top: 100px;
     padding-bottom: 100px
 }
+#about{
+    background-color: #f4f6f7;
+}
+#mission{
+    background-color: #fff;
+}
 
+small{
+    color: #2bdbdc;
+}
+#about-text{
+    text-align: justify;
+}
+#footer{
+    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
+    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
+    background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+}
+.motive-text{
+    text-align: justify;
+}
 .about-area .section-title .title {
     font-size: 44px;
     font-weight: 600;
     line-height: 55px;
     color: #121212
 }
+.motive{
+    text-align: center;
+}
 .motives{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 }
 .navbarlogo{
     width: 50px;
@@ -1892,7 +1919,7 @@ p {
     font-size: 20px;
     line-height: 25px;
     color: #121212;
-    margin-top: 8px
+    margin-top: 8px;
 }
 
 @media(max-width:767px) {
