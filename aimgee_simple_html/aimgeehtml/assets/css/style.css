@@ -197,7 +197,7 @@ p {
     width: 200%;
     height: 100%;
     border-style: solid;
-    border-color: #38f9d7 #38f9d7 #cbced1;
+    border-color: #50C878 #50C878 #cbced1;
     border-radius: 50%;
     border-width: 6px
 }
@@ -575,8 +575,8 @@ p {
 }
 
 .rounded-buttons .rounded-one {
-    border-color: #38f9d7;
-    color: #38f9d7
+    border-color: #50C878;
+    color: #50C878
 }
 
 .rounded-buttons .rounded-one:hover {
@@ -585,8 +585,8 @@ p {
 
 .rounded-buttons .rounded-two {
     color: #fff;
-    background-color: #38f9d7;
-    border-color: #38f9d7
+    background-color: #50C878;
+    border-color: #50C878
 }
 
 .rounded-buttons .rounded-two:hover {
@@ -597,9 +597,9 @@ p {
 .rounded-buttons .rounded-three {
     overflow: hidden;
     line-height: 52px;
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
     background-size: 200% auto;
     color: #fff;
     border: 0;
@@ -627,7 +627,7 @@ p {
 }
 
 .rounded-buttons .rounded-four {
-    border-color: #38f9d7;
+    border-color: #50C878;
     padding-left: 60px
 }
 
@@ -658,7 +658,7 @@ p {
 
 .rounded-buttons .rounded-four:hover {
     color: #fff;
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .rounded-buttons .rounded-four:hover i {
@@ -670,8 +670,8 @@ p {
 
 .rounded-buttons .rounded-five {
     color: #fff;
-    background-color: #38f9d7;
-    border-color: #38f9d7;
+    background-color: #50C878;
+    border-color: #50C878;
     padding-left: 60px
 }
 
@@ -701,7 +701,7 @@ p {
 }
 
 .rounded-buttons .rounded-five:hover {
-    color: #38f9d7;
+    color: #50C878;
     background-color: transparent
 }
 
@@ -716,9 +716,9 @@ p {
     padding-right: 60px;
     overflow: hidden;
     line-height: 52px;
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
     background-size: 200% auto;
     color: #fff;
     border: 0
@@ -807,9 +807,9 @@ p {
 }
 
 .navbar-area {
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 100%);
     padding: 10px 0;
     position: absolute;
     top: 0;
@@ -1295,12 +1295,12 @@ p {
 }
 
 .navbar-area.navbar-transparent .navbar .navbar-nav .nav-item a::before {
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .navbar-area.navbar-transparent .navbar .navbar-nav .nav-item.active a,
 .navbar-area.navbar-transparent .navbar .navbar-nav .nav-item:hover a {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent .navbar .navbar-btn .menu-bar {
@@ -1308,7 +1308,7 @@ p {
 }
 
 .navbar-area.navbar-transparent .navbar .navbar-btn .menu-bar:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent.sticky {
@@ -1325,7 +1325,7 @@ p {
 
 .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item.active a,
 .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item:hover a {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar {
@@ -1333,7 +1333,7 @@ p {
 }
 
 .navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent-2 {
@@ -1361,12 +1361,12 @@ p {
 }
 
 .navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item a::before {
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item.active a,
 .navbar-area.navbar-transparent-2 .navbar .navbar-nav .nav-item:hover a {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent-2 .navbar .navbar-btn .menu-bar {
@@ -1374,7 +1374,7 @@ p {
 }
 
 .navbar-area.navbar-transparent-2 .navbar .navbar-btn .menu-bar:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .navbar-area.navbar-transparent-2.sticky {
@@ -1462,7 +1462,7 @@ p {
 }
 
 .sidebar-right .sidebar-content .sidebar-menu ul li a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .sidebar-right .sidebar-content .sidebar-social {
@@ -1485,7 +1485,7 @@ p {
 
 .sidebar-right .sidebar-content .sidebar-social ul li a {
     font-size: 32px;
-    color: #38f9d7;
+    color: #50C878;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -1525,7 +1525,7 @@ p {
 }
 
 .slider-area .bd-example .carousel .carousel-inner {
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item {
@@ -1834,7 +1834,7 @@ p {
     -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .16);
     -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .16);
     box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .16);
-    color: #38f9d7
+    color: #50C878
 }
 
 .header-hero .header-shape {
@@ -1868,9 +1868,9 @@ small{
     text-align: justify;
 }
 #footer{
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 100%);
 }
 .motive-text{
     text-align: justify;
@@ -1885,6 +1885,11 @@ small{
     text-align: center;
 }
 .motives{
+    width: 90px;
+    height: 90px;
+}
+.white{
+    display: none;
     width: 90px;
     height: 90px;
 }
@@ -2046,7 +2051,7 @@ small{
 
 .about-content-2 .about-icon i {
     font-size: 64px;
-    color: #38f9d7
+    color: #50C878
 }
 
 .about-content-2 .about-content {
@@ -2203,9 +2208,9 @@ small{
     left: 0;
     width: 100%;
     height: 4px;
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 100%);
     z-index: -1;
     opacity: 0;
     -webkit-transition: all .3s ease-out 0s;
@@ -2218,7 +2223,7 @@ small{
 
 .portfolio-menu ul li:hover,
 .portfolio-menu ul li.active {
-    color: #38f9d7
+    color: #50C878
 }
 
 .portfolio-menu ul li:hover::before,
@@ -2275,7 +2280,7 @@ small{
 
 .single-portfolio .portfolio-image .portfolio-overlay .portfolio-content .portfolio-icon a {
     font-size: 48px;
-    color: #38f9d7;
+    color: #50C878;
     position: relative;
     z-index: 5;
     line-height: 50px
@@ -2315,7 +2320,7 @@ small{
 }
 
 .single-portfolio .portfolio-text .portfolio-title a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .single-portfolio .portfolio-text .text {
@@ -2353,7 +2358,7 @@ small{
 
 .single-services .services-icon i {
     font-size: 34px;
-    color: #38f9d7;
+    color: #50C878;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -2382,12 +2387,22 @@ small{
 }
 
 .single-services:hover {
-    background-color: #38f9d7;
+    background-color: #50C878;
     -webkit-box-shadow: 0 5px 30px 0 rgba(254, 81, 150, .3);
     -moz-box-shadow: 0 5px 30px 0 rgba(254, 81, 150, .3);
     box-shadow: 0 5px 30px 0 rgba(254, 81, 150, .3)
 }
 
+.single-services:hover .white{
+    
+        display: inline;
+    
+}
+.single-services:hover .motives{
+    
+    display: none;
+
+}
 .single-services:hover .services-icon i {
     color: #fff
 }
@@ -2491,7 +2506,7 @@ small{
 }
 
 .pricing-style-one .pricing-list ul li i {
-    color: #38f9d7;
+    color: #50C878;
     margin-right: 8px
 }
 
@@ -2595,7 +2610,7 @@ small{
 }
 
 .pricing-style-two .pricing-list ul li i {
-    color: #38f9d7;
+    color: #50C878;
     margin-right: 8px
 }
 
@@ -2675,7 +2690,7 @@ small{
 }
 
 .call-action-area .call-action-form input:focus {
-    border-color: #38f9d7
+    border-color: #50C878
 }
 
 .call-action-area .call-action-form .action-btn {
@@ -2725,9 +2740,9 @@ small{
 }
 
 .call-action-3 {
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%)
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 100%)
 }
 
 .call-action-3 .call-action-content .action-title {
@@ -2788,7 +2803,7 @@ small{
 
 .call-action-3 .call-action-form .action-btn .main-btn {
     background-color: #fff;
-    color: #38f9d7;
+    color: #50C878;
     border-color: #fff;
     line-height: 46px
 }
@@ -2871,7 +2886,7 @@ small{
 
 .testimonial-active-2 .slick-dots li.slick-active button,
 .testimonial-active .slick-dots li.slick-active button {
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .single-testimonial-4 {
@@ -2948,7 +2963,7 @@ small{
 }
 
 .testimonial-active-4 .slick-dots li.slick-active button {
-    background-color: #38f9d7
+    background-color: #50C878
 }
 
 .client-logo-area {
@@ -2999,7 +3014,7 @@ small{
 }
 
 .single-blog .blog-content .blog-title a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .single-blog .blog-content span {
@@ -3021,7 +3036,7 @@ small{
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
-    color: #38f9d7;
+    color: #50C878;
     margin-top: 29px
 }
 
@@ -3066,7 +3081,7 @@ small{
     font-size: 88px;
     position: relative;
     z-index: 5;
-    color: #38f9d7
+    color: #50C878
 }
 
 .single-contact-box .box-icon .shape {
@@ -3155,7 +3170,7 @@ small{
 
 .form-input .input-items input:focus,
 .form-input .input-items textarea:focus {
-    border-color: #38f9d7
+    border-color: #50C878
 }
 
 .form-input .input-items input::placeholder,
@@ -3225,9 +3240,9 @@ small{
     }
 }
 /* footer{
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+    background: -webkit-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: -o-linear-gradient(left, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
+    background: linear-gradient(to right, #49B8D3 0%, #50C878 50%, #49B8D3 100%);
 } */
 .footer-area .footer-widget .footer-title {
     font-size: 14px;
@@ -3258,7 +3273,7 @@ small{
 }
 
 .footer-area .footer-widget .footer-link ul li a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .footer-area .footer-copyright {
@@ -3290,7 +3305,7 @@ small{
 }
 
 .footer-area .footer-copyright .social li a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .footer-area.footer-dark {
@@ -3306,7 +3321,7 @@ small{
 }
 
 .footer-area.footer-dark .footer-widget .footer-link ul li a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .footer-area.footer-dark .footer-copyright .copyright .text {
@@ -3318,7 +3333,7 @@ small{
 }
 
 .footer-area.footer-dark .footer-copyright .social li a:hover {
-    color: #38f9d7
+    color: #50C878
 }
 
 .back-to-top {
@@ -3331,7 +3346,7 @@ small{
     height: 45px;
     line-height: 45px;
     border-radius: 50%;
-    background-color: #38f9d7;
+    background-color: #50C878;
     text-align: center;
     z-index: 99;
     -webkit-transition: all .3s ease-out 0s;
@@ -3344,5 +3359,5 @@ small{
 
 .back-to-top:hover {
     color: #121212;
-    background-color: #38f9d7
+    background-color: #50C878
 }
